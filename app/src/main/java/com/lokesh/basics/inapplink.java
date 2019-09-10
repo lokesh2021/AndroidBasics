@@ -13,6 +13,6 @@ public class inapplink extends AppCompatActivity {
 
         WebView webview=new WebView(this);
         setContentView(webview);
-        webview.loadUrl("https://www.google.com/");
+        webview.loadUrl("https://www.google.com/");                     // link of the website needed to be opened within app
     }
 }
